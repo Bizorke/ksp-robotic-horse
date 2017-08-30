@@ -16,7 +16,7 @@ Pull requests are welcome. This was only my second KOS project so I'm sure there
 
 - [KOS](https://ksp-kos.github.io/KOS/)
 - [Infernal Robotics](https://forum.kerbalspaceprogram.com/index.php?/topic/104535-112-magic-smoke-industries-infernal-robotics-202/)
-- [Laser Dist](https://github.com/Dunbaratu/LaserDist)
+- [LaserDist](https://github.com/Dunbaratu/LaserDist)
 
 ## License: 
 
