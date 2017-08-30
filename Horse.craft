@@ -1,0 +1,4433 @@
+ship = Horse
+version = 1.2.2
+description = No Description.
+type = None
+size = 2.5,3.99898338,4.9843955
+PART
+{
+	part = stackDecoupler_4294460488
+	partName = Part
+	pos = 0.457755089,14.0650311,-1.35481679
+	attPos = -0.0110714296,-5.37587833,0.29455027
+	attPos0 = 0.457755089,14.0650311,-1.35481679
+	rot = 0,0,0,1
+	attRot = 0,0,0,0.999999881
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 0
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = asasmodule1-2_4294460440
+	attN = top,asasmodule1-2_4294460440
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			EnableAction
+			{
+				actionGroup = None
+			}
+			DisableAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 1.25
+		defaultScale = 1.25
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 400
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = tjs_DecouplerLight
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = asasmodule1-2_4294460440
+	partName = Part
+	pos = 0.457755089,14.4650326,-1.500525
+	attPos = -2.20228518E-20,0.499999374,2.08616513E-07
+	attPos0 = 2.20228566E-20,-0.499999851,2.98023437E-08
+	rot = -2.2958874E-41,-6.77626358E-21,1.21169025E-27,1
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = 0,0,-1.00974196E-27,1
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = asasmodule1-2_4293999522
+	link = distometer500x_4293997950
+	attN = top,asasmodule1-2_4293999522
+	attN = bottom,stackDecoupler_4294460488
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		actuatorModeCycle = 0
+		authorityLimiter = 100
+		stateString = Active
+		stagingEnabled = True
+		WheelState = Active
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			CycleAction
+			{
+				actionGroup = None
+			}
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 2.5
+		defaultScale = 2.5
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 2100
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = asasmodule1-2_4293999522
+	partName = Part
+	pos = 0.457755089,14.4650326,-1.50052524
+	attPos = -3.2187252E-20,0.499999315,2.98024361E-08
+	attPos0 = 3.2187252E-20,-0.499999315,-2.98024361E-08
+	rot = -2.2958874E-41,-6.77626358E-21,1.21169025E-27,1
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = asasmodule1-2_4293999490
+	link = LgRadialSolarPanel_4293337942
+	link = LgRadialSolarPanel_4293337564
+	attN = top,asasmodule1-2_4293999490
+	attN = bottom,asasmodule1-2_4294460440
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		actuatorModeCycle = 0
+		authorityLimiter = 100
+		stateString = Active
+		stagingEnabled = True
+		WheelState = Active
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			CycleAction
+			{
+				actionGroup = None
+			}
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 2.5
+		defaultScale = 2.5
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 2100
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = asasmodule1-2_4293999490
+	partName = Part
+	pos = 0.457755089,14.4650326,-1.50052524
+	attPos = -2.2022855E-20,0.499999851,2.9802262E-08
+	attPos0 = 2.20228566E-20,-0.499999851,2.98023437E-08
+	rot = -2.2958874E-41,-6.77626358E-21,1.21169025E-27,1
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = 0,0,-1.00974196E-27,1
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = asasmodule1-2_4293999458
+	link = distometer500x_4293997906
+	attN = top,asasmodule1-2_4293999458
+	attN = bottom,asasmodule1-2_4293999522
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		actuatorModeCycle = 0
+		authorityLimiter = 100
+		stateString = Active
+		stagingEnabled = True
+		WheelState = Active
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			CycleAction
+			{
+				actionGroup = None
+			}
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 2.5
+		defaultScale = 2.5
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 2100
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = asasmodule1-2_4293999458
+	partName = Part
+	pos = 0.457755089,14.4650326,-1.50052524
+	attPos = 1.49163146E-14,-0.296883285,0.240406096
+	attPos0 = -1.49163146E-14,0.296883434,-5.96045915E-08
+	rot = -2.2958874E-41,-6.77626358E-21,1.21169025E-27,1
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -6.77626358E-21,-1.49011612E-07,-1,2.51214743E-14
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = stackPoint1_4293999426
+	attN = top,stackPoint1_4293999426
+	attN = bottom,asasmodule1-2_4293999490
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		actuatorModeCycle = 0
+		authorityLimiter = 100
+		stateString = Active
+		stagingEnabled = True
+		WheelState = Active
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			CycleAction
+			{
+				actionGroup = None
+			}
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 2.5
+		defaultScale = 2.5
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 2100
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = stackPoint1_4293999426
+	partName = Part
+	pos = 0.457755089,14.4650326,-1.74093151
+	attPos = -1.02445483E-08,0.0894154087,-0.00124740601
+	attPos0 = 1.02445483E-08,0.110584609,-0.198752493
+	rot = 1.27054926E-20,2.08616228E-07,1,2.51214793E-14
+	attRot = 0,0,0,1
+	attRot0 = -1.77635701E-14,0.70710665,-0.707106888,-1.77635599E-14
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = IR.Segment.TubeLarge.2m50_4293999386
+	srfN = srfAttach,IR.Segment.TubeLarge.2m50_4293999386
+	attN = top,asasmodule1-2_4293999458
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConnectedLivingSpace
+		isEnabled = True
+		passable = True
+		passableWhenSurfaceAttached = True
+		surfaceAttachmentsPassable = False
+		passablenodes = 
+		impassablenodes = 
+		spaceName = BZ-52 Radial Attachment Point
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 1.25
+		defaultScale = 1.25
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 250
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = IR.Segment.TubeLarge.2m50_4293999386
+	partName = Part
+	pos = 0.457755089,14.6650324,-1.54093146
+	attPos = 0,0.382878304,1.05622494
+	attPos0 = 0.00740438327,5.99936533,-0.117828369
+	rot = 0.707106829,-7.38455718E-21,-1.91485349E-20,-0.707106829
+	attRot = 0.999999881,0,0,0
+	attRot0 = 0.707106769,0,0,0.707106769
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = IR.Foldatron.Basic_4293999356
+	link = IR.Foldatron.Basic_4293998968
+	link = IR.Pivotron.Basic_4293998580
+	link = kOSMachineRad_4293998198
+	link = stackPoint1_4293998156
+	attN = bottom,IR.Foldatron.Basic_4293999356
+	attN = top,IR.Foldatron.Basic_4293998968
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 1
+		defaultScale = 1
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 250
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = IR.Foldatron.Basic_4293999356
+	partName = Part
+	pos = 0.457755089,14.505024,-0.150931358
+	attPos = 0,0,0
+	attPos0 = 0,-1.38999975,-0.159999892
+	rot = 2.25368751E-20,0.707090557,0.707123101,-2.30238171E-21
+	attRot = 0,0.999999881,0,0
+	attRot0 = 0,1.49011612E-07,-1,0
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = IR.Extendatron.Right_4293999308
+	link = IR.Extendatron.Right_4293999138
+	attN = bottom,IR.Segment.TubeLarge.2m50_4293999386
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 1
+		defaultScale = 1
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 250
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = MuMechToggle
+		isEnabled = True
+		servoName = Foldatron - Basic
+		pitchSet = 1
+		soundSet = 0.5
+		freeMoving = False
+		isMotionLock = False
+		limitTweakable = False
+		limitTweakableFlag = True
+		maxTweak = 90
+		minTweak = -90
+		rotateLimits = True
+		rotateMax = 90
+		rotateMin = -90
+		rotation = 0
+		translateMax = 3
+		translateMin = 0
+		translation = 0
+		defaultPosition = 0
+		customSpeed = 1
+		invertAxis = False
+		torqueMax = 30
+		torqueTweak = 1
+		speedTweak = 1
+		accelTweak = 100
+		presetPositionsSerialized = -90|-45|0|45|90|
+		groupName = New Group
+		forwardKey = 
+		reverseKey = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			MotionLockToggle
+			{
+				actionGroup = None
+			}
+			MoveNextPresetAction
+			{
+				actionGroup = None
+			}
+			MovePrevPresetAction
+			{
+				actionGroup = None
+			}
+			MovePlusAction
+			{
+				actionGroup = None
+			}
+			MoveMinusAction
+			{
+				actionGroup = None
+			}
+			MoveCenterAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = shoulders
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = IR.Extendatron.Right_4293999308
+	partName = Part
+	pos = -0.111079156,14.105031,-0.15101099
+	attPos = 0.0436714292,-0.00476945937,0.0500001609
+	attPos0 = 0.525080383,0.00476912549,-0.449999571
+	rot = 0.499988824,-0.499988317,-0.500011384,-0.500011623
+	attRot = 0,-0.707106709,0,0.707106709
+	attRot0 = -6.6835895E-08,-7.23126448E-09,0.707106829,-0.707106769
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -125.000015
+	modMass = -0.0900000036
+	modSize = 0,0,0
+	link = landingLeg1_4293999266
+	sym = IR.Extendatron.Right_4293999138
+	srfN = srfAttach,IR.Foldatron.Basic_4293999356
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.5
+		defaultScale = 1
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 124.999985
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = MuMechToggle
+		isEnabled = True
+		servoName = Extendatron - Right-Angle
+		pitchSet = 1
+		soundSet = 0.5
+		freeMoving = False
+		isMotionLock = False
+		limitTweakable = False
+		limitTweakableFlag = False
+		maxTweak = 0.870000005
+		minTweak = 0
+		rotateLimits = False
+		rotateMax = 360
+		rotateMin = 0
+		rotation = 0
+		translateMax = 0.899999976
+		translateMin = 0
+		translation = 0
+		defaultPosition = 0
+		customSpeed = 1
+		invertAxis = False
+		torqueMax = 30
+		torqueTweak = 1
+		speedTweak = 1
+		accelTweak = 100
+		presetPositionsSerialized = 0|
+		groupName = New Group
+		forwardKey = 
+		reverseKey = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			MotionLockToggle
+			{
+				actionGroup = None
+			}
+			MoveNextPresetAction
+			{
+				actionGroup = None
+			}
+			MovePrevPresetAction
+			{
+				actionGroup = None
+			}
+			MovePlusAction
+			{
+				actionGroup = None
+			}
+			MoveMinusAction
+			{
+				actionGroup = None
+			}
+			MoveCenterAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = fl
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = landingLeg1_4293999266
+	partName = Part
+	pos = -0.115121782,14.1050262,-0.0321223736
+	attPos = 0,0,0
+	attPos0 = -0.118885323,0.00404267153,-1.02200595E-07
+	rot = -0.0616024435,-3.72268616E-08,3.23098348E-08,0.998100877
+	attRot = 0.0922960043,0.177836567,-0.684378803,0.701057255
+	attRot0 = -0.468237042,0.468236983,0.529862404,-0.529862285
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = ForceHeaviest
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = landingLeg1_4293999096
+	srfN = srfAttach,IR.Extendatron.Right_4293999308
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleWheelBase
+		isEnabled = True
+		wheelType = LEG
+		isGrounded = False
+		autoFriction = False
+		frictionMultiplier = 1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActAutoFrictionToggle
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelSuspension
+		isEnabled = True
+		springTweakable = 1
+		damperTweakable = 1
+		suspensionPos = (-1, -1, -1)
+		autoBoost = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDeployment
+		isEnabled = True
+		shieldedCanDeploy = False
+		stateString = Deployed
+		stagingEnabled = True
+		position = 1
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = Gear
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelLock
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelBogey
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDamage
+		isEnabled = True
+		isDamaged = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 440
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = flleg
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = IR.Extendatron.Right_4293999138
+	partName = Part
+	pos = 1.0265106,14.1050234,-0.150947809
+	attPos = -0.0436714888,-0.00476969779,0.0500001609
+	attPos0 = -0.525080383,0.00476912549,-0.449999571
+	rot = -0.499988824,-0.499988317,-0.500011384,0.500011623
+	attRot = 0,-0.707106709,0,0.707106709
+	attRot0 = 1.2644054E-07,-3.70335869E-08,0.707106829,0.707106709
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -125.000015
+	modMass = -0.0900000036
+	modSize = 0,0,0
+	link = landingLeg1_4293999096
+	sym = IR.Extendatron.Right_4293999308
+	srfN = srfAttach,IR.Foldatron.Basic_4293999356
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.5
+		defaultScale = 1
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 124.999985
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = MuMechToggle
+		isEnabled = True
+		servoName = Extendatron - Right-Angle
+		pitchSet = 1
+		soundSet = 0.5
+		freeMoving = False
+		isMotionLock = False
+		limitTweakable = False
+		limitTweakableFlag = False
+		maxTweak = 0.870000005
+		minTweak = 0
+		rotateLimits = False
+		rotateMax = 360
+		rotateMin = 0
+		rotation = 0
+		translateMax = 0.899999976
+		translateMin = 0
+		translation = 0
+		defaultPosition = 0
+		customSpeed = 1
+		invertAxis = False
+		torqueMax = 30
+		torqueTweak = 1
+		speedTweak = 1
+		accelTweak = 100
+		presetPositionsSerialized = 0|
+		groupName = New Group
+		forwardKey = 
+		reverseKey = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			MotionLockToggle
+			{
+				actionGroup = None
+			}
+			MoveNextPresetAction
+			{
+				actionGroup = None
+			}
+			MovePrevPresetAction
+			{
+				actionGroup = None
+			}
+			MovePlusAction
+			{
+				actionGroup = None
+			}
+			MoveMinusAction
+			{
+				actionGroup = None
+			}
+			MoveCenterAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = fr
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = landingLeg1_4293999096
+	partName = Part
+	pos = 1.03055322,14.1050186,-0.0320594311
+	attPos = 0,0,0
+	attPos0 = 0.118885376,0.00404267339,-1.17402948E-07
+	rot = -0.0616024435,3.72268545E-08,-3.23098348E-08,0.998100877
+	attRot = 0.0922960043,0.177836567,-0.684378803,0.701057255
+	attRot0 = -0.468237072,-0.468237013,-0.529862404,-0.529862285
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = ForceHeaviest
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = landingLeg1_4293999266
+	srfN = srfAttach,IR.Extendatron.Right_4293999138
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleWheelBase
+		isEnabled = True
+		wheelType = LEG
+		isGrounded = False
+		autoFriction = False
+		frictionMultiplier = 1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActAutoFrictionToggle
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelSuspension
+		isEnabled = True
+		springTweakable = 1
+		damperTweakable = 1
+		suspensionPos = (-1, -1, -1)
+		autoBoost = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDeployment
+		isEnabled = True
+		shieldedCanDeploy = False
+		stateString = Deployed
+		stagingEnabled = True
+		position = 1
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = Gear
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelLock
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelBogey
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDamage
+		isEnabled = True
+		isDamaged = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 440
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = frleg
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = IR.Foldatron.Basic_4293998968
+	partName = Part
+	pos = 0.457755089,14.5050354,-2.93093157
+	attPos = 0,0,0
+	attPos0 = 0,1.38999999,-0.159999892
+	rot = -0.707106709,1.9243016E-20,8.98413788E-21,0.707106948
+	attRot = -0.999999881,0,0,0
+	attRot0 = -1.49011612E-07,0,0,-1
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = IR.Extendatron.Right_4293998920
+	link = IR.Extendatron.Right_4293998750
+	attN = bottom,IR.Segment.TubeLarge.2m50_4293999386
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 1
+		defaultScale = 1
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 250
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = MuMechToggle
+		isEnabled = True
+		servoName = Foldatron - Basic
+		pitchSet = 1
+		soundSet = 0.5
+		freeMoving = False
+		isMotionLock = False
+		limitTweakable = False
+		limitTweakableFlag = True
+		maxTweak = 90
+		minTweak = -90
+		rotateLimits = True
+		rotateMax = 90
+		rotateMin = -90
+		rotation = 0
+		translateMax = 3
+		translateMin = 0
+		translation = 0
+		defaultPosition = 0
+		customSpeed = 1
+		invertAxis = False
+		torqueMax = 30
+		torqueTweak = 1
+		speedTweak = 1
+		accelTweak = 100
+		presetPositionsSerialized = -90|-45|0|45|90|
+		groupName = New Group
+		forwardKey = 
+		reverseKey = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			MotionLockToggle
+			{
+				actionGroup = None
+			}
+			MoveNextPresetAction
+			{
+				actionGroup = None
+			}
+			MovePrevPresetAction
+			{
+				actionGroup = None
+			}
+			MovePlusAction
+			{
+				actionGroup = None
+			}
+			MoveMinusAction
+			{
+				actionGroup = None
+			}
+			MoveCenterAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = pelvis
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = IR.Extendatron.Right_4293998920
+	partName = Part
+	pos = 1.02650809,14.105032,-2.93093061
+	attPos = 0.043669939,-0.0047699837,0.0499997437
+	attPos0 = 0.525080383,0.00476912549,-0.449999571
+	rot = 0.499999821,0.500000238,0.500000238,-0.49999997
+	attRot = 0,-0.707106709,0,0.707106709
+	attRot0 = -6.6835895E-08,-7.23126448E-09,0.707106829,-0.707106769
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -125.000015
+	modMass = -0.0900000036
+	modSize = 0,0,0
+	link = landingLeg1_4293998878
+	sym = IR.Extendatron.Right_4293998750
+	srfN = srfAttach,IR.Foldatron.Basic_4293998968
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.5
+		defaultScale = 1
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 124.999985
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = MuMechToggle
+		isEnabled = True
+		servoName = Extendatron - Right-Angle
+		pitchSet = 1
+		soundSet = 0.5
+		freeMoving = False
+		isMotionLock = False
+		limitTweakable = False
+		limitTweakableFlag = False
+		maxTweak = 0.870000005
+		minTweak = 0
+		rotateLimits = False
+		rotateMax = 360
+		rotateMin = 0
+		rotation = 0
+		translateMax = 0.899999976
+		translateMin = 0
+		translation = 0
+		defaultPosition = 0
+		customSpeed = 1
+		invertAxis = False
+		torqueMax = 30
+		torqueTweak = 1
+		speedTweak = 1
+		accelTweak = 100
+		presetPositionsSerialized = 0|
+		groupName = New Group
+		forwardKey = 
+		reverseKey = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			MotionLockToggle
+			{
+				actionGroup = None
+			}
+			MoveNextPresetAction
+			{
+				actionGroup = None
+			}
+			MovePrevPresetAction
+			{
+				actionGroup = None
+			}
+			MovePlusAction
+			{
+				actionGroup = None
+			}
+			MoveMinusAction
+			{
+				actionGroup = None
+			}
+			MoveCenterAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = br
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = landingLeg1_4293998878
+	partName = Part
+	pos = 1.03055072,14.105032,-3.04981971
+	attPos = 0,0,0
+	attPos0 = -0.118885323,0.00404267153,-1.02200595E-07
+	rot = -1.87088716E-07,0.998099566,0.0616253018,1.66151679E-07
+	attRot = 0.0922960043,0.177836567,-0.684378803,0.701057255
+	attRot0 = -0.468237042,0.468236983,0.529862404,-0.529862285
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = ForceHeaviest
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = landingLeg1_4293998708
+	srfN = srfAttach,IR.Extendatron.Right_4293998920
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleWheelBase
+		isEnabled = True
+		wheelType = LEG
+		isGrounded = False
+		autoFriction = False
+		frictionMultiplier = 1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActAutoFrictionToggle
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelSuspension
+		isEnabled = True
+		springTweakable = 1
+		damperTweakable = 1
+		suspensionPos = (-1, -1, -1)
+		autoBoost = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDeployment
+		isEnabled = True
+		shieldedCanDeploy = False
+		stateString = Deployed
+		stagingEnabled = True
+		position = 1
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = Gear
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelLock
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelBogey
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDamage
+		isEnabled = True
+		isDamaged = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 440
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = brleg
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = IR.Extendatron.Right_4293998750
+	partName = Part
+	pos = -0.110997915,14.105032,-2.93093109
+	attPos = -0.043669939,-0.00476974528,0.0499997437
+	attPos0 = -0.525080383,0.00476912549,-0.449999571
+	rot = -0.499999821,0.500000238,0.500000238,0.49999997
+	attRot = 0,-0.707106709,0,0.707106709
+	attRot0 = 1.2644054E-07,-3.70335869E-08,0.707106829,0.707106709
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -125.000015
+	modMass = -0.0900000036
+	modSize = 0,0,0
+	link = landingLeg1_4293998708
+	sym = IR.Extendatron.Right_4293998920
+	srfN = srfAttach,IR.Foldatron.Basic_4293998968
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.5
+		defaultScale = 1
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 124.999985
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = MuMechToggle
+		isEnabled = True
+		servoName = Extendatron - Right-Angle
+		pitchSet = 1
+		soundSet = 0.5
+		freeMoving = False
+		isMotionLock = False
+		limitTweakable = False
+		limitTweakableFlag = False
+		maxTweak = 0.870000005
+		minTweak = 0
+		rotateLimits = False
+		rotateMax = 360
+		rotateMin = 0
+		rotation = 0
+		translateMax = 0.899999976
+		translateMin = 0
+		translation = 0
+		defaultPosition = 0
+		customSpeed = 1
+		invertAxis = False
+		torqueMax = 30
+		torqueTweak = 1
+		speedTweak = 1
+		accelTweak = 100
+		presetPositionsSerialized = 0|
+		groupName = New Group
+		forwardKey = 
+		reverseKey = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			MotionLockToggle
+			{
+				actionGroup = None
+			}
+			MoveNextPresetAction
+			{
+				actionGroup = None
+			}
+			MovePrevPresetAction
+			{
+				actionGroup = None
+			}
+			MovePlusAction
+			{
+				actionGroup = None
+			}
+			MoveMinusAction
+			{
+				actionGroup = None
+			}
+			MoveCenterAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = bl
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = landingLeg1_4293998708
+	partName = Part
+	pos = -0.115040541,14.105032,-3.04981971
+	attPos = 0,0,0
+	attPos0 = 0.118885376,0.00404267339,-1.17402948E-07
+	rot = -1.8708873E-07,-0.998099566,-0.0616253018,1.66151665E-07
+	attRot = 0.0922960043,0.177836567,-0.684378803,0.701057255
+	attRot0 = -0.468237072,-0.468237013,-0.529862404,-0.529862285
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = ForceHeaviest
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = landingLeg1_4293998878
+	srfN = srfAttach,IR.Extendatron.Right_4293998750
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleWheelBase
+		isEnabled = True
+		wheelType = LEG
+		isGrounded = False
+		autoFriction = False
+		frictionMultiplier = 1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActAutoFrictionToggle
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelSuspension
+		isEnabled = True
+		springTweakable = 1
+		damperTweakable = 1
+		suspensionPos = (-1, -1, -1)
+		autoBoost = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDeployment
+		isEnabled = True
+		shieldedCanDeploy = False
+		stateString = Deployed
+		stagingEnabled = True
+		position = 1
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = Gear
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelLock
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelBogey
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWheelDamage
+		isEnabled = True
+		isDamaged = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 440
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = blleg
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = IR.Pivotron.Basic_4293998580
+	partName = Part
+	pos = 0.457755089,14.6650295,-0.0159235001
+	attPos = -2.41166187E-14,-0.436062932,-0.268755734
+	attPos0 = 2.41166187E-14,-1.088938,0.268755138
+	rot = -5.68434392E-14,-0.707107008,-0.70710665,-5.6843368E-14
+	attRot = -4.00234146E-22,-0.707106709,-0.707106709,9.03438143E-22
+	attRot0 = 8.03887393E-14,2.68220901E-07,1,-2.37169225E-20
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -125
+	modMass = -0.0500000007
+	modSize = 0,0,0
+	link = IR.Pivotron.Basic_4293998538
+	srfN = srfAttach,IR.Segment.TubeLarge.2m50_4293999386
+	attN = top,IR.Pivotron.Basic_4293998538
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.5
+		defaultScale = 1
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 125
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = MuMechToggle
+		isEnabled = True
+		servoName = Joint Pivotron - Basic
+		pitchSet = 1
+		soundSet = 0.5
+		freeMoving = False
+		isMotionLock = False
+		limitTweakable = False
+		limitTweakableFlag = True
+		maxTweak = 90
+		minTweak = -90
+		rotateLimits = True
+		rotateMax = 90
+		rotateMin = -90
+		rotation = 0
+		translateMax = 1.5
+		translateMin = 0
+		translation = 0
+		defaultPosition = 0
+		customSpeed = 1
+		invertAxis = False
+		torqueMax = 30
+		torqueTweak = 1
+		speedTweak = 1
+		accelTweak = 100
+		presetPositionsSerialized = 0|
+		groupName = New Group
+		forwardKey = 
+		reverseKey = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			MotionLockToggle
+			{
+				actionGroup = None
+			}
+			MoveNextPresetAction
+			{
+				actionGroup = None
+			}
+			MovePrevPresetAction
+			{
+				actionGroup = None
+			}
+			MovePlusAction
+			{
+				actionGroup = None
+			}
+			MoveMinusAction
+			{
+				actionGroup = None
+			}
+			MoveCenterAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = neck1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = IR.Pivotron.Basic_4293998538
+	partName = Part
+	pos = 0.457755089,14.6650295,0.284076691
+	attPos = 0,0,0
+	attPos0 = -1.68156284E-14,0.488988101,-1.97440301E-07
+	rot = -0.5,0.500000179,0.5,-0.500000179
+	attRot = 0,-0.707106769,0,0.707106769
+	attRot0 = 3.35276162E-08,-0.707106829,3.35276162E-08,-0.707106829
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = -125
+	modMass = -0.0500000007
+	modSize = 0,0,0
+	link = IR.Rotatron.Basic_4293998496
+	attN = top,IR.Rotatron.Basic_4293998496
+	attN = bottom,IR.Pivotron.Basic_4293998580
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.5
+		defaultScale = 1
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 125
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = MuMechToggle
+		isEnabled = True
+		servoName = Joint Pivotron - Basic
+		pitchSet = 1
+		soundSet = 0.5
+		freeMoving = False
+		isMotionLock = False
+		limitTweakable = False
+		limitTweakableFlag = True
+		maxTweak = 90
+		minTweak = -90
+		rotateLimits = True
+		rotateMax = 90
+		rotateMin = -90
+		rotation = 0
+		translateMax = 1.5
+		translateMin = 0
+		translation = 0
+		defaultPosition = 0
+		customSpeed = 1
+		invertAxis = False
+		torqueMax = 30
+		torqueTweak = 1
+		speedTweak = 1
+		accelTweak = 20
+		presetPositionsSerialized = -90|0|90|
+		groupName = New Group
+		forwardKey = 
+		reverseKey = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			MotionLockToggle
+			{
+				actionGroup = None
+			}
+			MoveNextPresetAction
+			{
+				actionGroup = None
+			}
+			MovePrevPresetAction
+			{
+				actionGroup = None
+			}
+			MovePlusAction
+			{
+				actionGroup = None
+			}
+			MoveMinusAction
+			{
+				actionGroup = None
+			}
+			MoveCenterAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = neck2
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = IR.Rotatron.Basic_4293998496
+	partName = Part
+	pos = 0.457755089,14.6650229,0.497070551
+	attPos = 0,0,0
+	attPos0 = 4.575312E-07,0.399999291,5.68434324E-14
+	rot = -0.707106709,5.68433748E-14,5.68434392E-14,-0.707107067
+	attRot = 0,0,0,1
+	attRot0 = -3.61617936E-08,0.707106829,3.61617936E-08,0.707106829
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = -92.5097504
+	modMass = -0.0370039009
+	modSize = 0,0,0
+	link = standardNoseCone_4293998454
+	attN = top,standardNoseCone_4293998454
+	attN = bottom,IR.Pivotron.Basic_4293998538
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.629961014
+		defaultScale = 1
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 157.49025
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = MuMechToggle
+		isEnabled = True
+		servoName = Rotatron - Basic
+		pitchSet = 1
+		soundSet = 0.5
+		freeMoving = False
+		isMotionLock = False
+		limitTweakable = True
+		limitTweakableFlag = False
+		maxTweak = 360
+		minTweak = -360
+		rotateLimits = False
+		rotateMax = 360
+		rotateMin = -360
+		rotation = 0
+		translateMax = 1.88988304
+		translateMin = 0
+		translation = 0
+		defaultPosition = 0
+		customSpeed = 1
+		invertAxis = False
+		torqueMax = 30
+		torqueTweak = 1
+		speedTweak = 1
+		accelTweak = 20
+		presetPositionsSerialized = -180|-90|0|90|180|
+		groupName = New Group
+		forwardKey = 
+		reverseKey = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			MotionLockToggle
+			{
+				actionGroup = None
+			}
+			MoveNextPresetAction
+			{
+				actionGroup = None
+			}
+			MovePrevPresetAction
+			{
+				actionGroup = None
+			}
+			MovePlusAction
+			{
+				actionGroup = None
+			}
+			MoveMinusAction
+			{
+				actionGroup = None
+			}
+			MoveCenterAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = neck3
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = standardNoseCone_4293998454
+	partName = Part
+	pos = 0.457755089,14.6650229,0.873060346
+	attPos = 7.84766296E-09,0.0945047289,-0.0406037569
+	attPos0 = 1.42108615E-14,0.375991017,-1.05231976E-07
+	rot = 0.707106829,-5.68433816E-14,-5.68434392E-14,0.707106948
+	attRot = 0,0,0,-0.999999881
+	attRot0 = -5.96046377E-08,0,-5.32906925E-15,-1
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = spotLight1_4293998414
+	link = spotLight1_4293998374
+	link = longAntenna_4293998334
+	link = longAntenna_4293998266
+	attN = bottom01,IR.Rotatron.Basic_4293998496
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.625
+		defaultScale = 0.625
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 180
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = spotLight1_4293998414
+	partName = Part
+	pos = 0.312899768,14.9159231,0.916589856
+	attPos = 0,0,0
+	attPos0 = -0.192079961,0.0941181853,-0.332692116
+	rot = 0.218142331,-0.814117789,0.519832075,-0.13928853
+	attRot = 0,0,0.999999881,0
+	attRot0 = 0.252741665,-0.208091542,0.943244755,0.0557578914
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -87.5
+	modMass = -0.0131249996
+	modSize = 0,0,0
+	sym = spotLight1_4293998374
+	srfN = srfAttach,standardNoseCone_4293998454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = False
+		uiWriteLock = False
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 12.5
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = spotLight1_4293998374
+	partName = Part
+	pos = 0.60261029,14.9159241,0.91659081
+	attPos = 0,0,0
+	attPos0 = 0.192079961,0.0941181853,-0.332692116
+	rot = -0.218142211,-0.814117789,0.519832015,0.139288664
+	attRot = 0,0,0.999999881,0
+	attRot0 = -0.252741665,-0.208091438,0.943244815,-0.0557578951
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -87.5
+	modMass = -0.0131249996
+	modSize = 0,0,0
+	sym = spotLight1_4293998414
+	srfN = srfAttach,standardNoseCone_4293998454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = False
+		uiWriteLock = False
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 12.5
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = longAntenna_4293998334
+	partName = Part
+	pos = 0.311231673,14.9188137,0.655080914
+	attPos = 0,0,0
+	attPos0 = -0.146521211,-0.21797809,-0.253782749
+	rot = 0.258560926,-0.96496284,0.0431294069,-0.0115564223
+	attRot = 0.258819312,2.19384084E-08,1.06775829E-07,0.965925813
+	attRot0 = 0.191001743,-0.651834607,0.712828517,0.174658522
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = longAntenna_4293998266
+	srfN = srfAttach,standardNoseCone_4293998454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableAntenna
+		isEnabled = True
+		currentRotation = (-0.707106829, 0, 0, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		deployState = EXTENDED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		xmitIncomplete = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartTransmissionAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 300
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = la
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = longAntenna_4293998266
+	partName = Part
+	pos = 0.604278505,14.9188137,0.655080914
+	attPos = 0,0,0
+	attPos0 = 0.146521211,-0.21797809,-0.253782749
+	rot = -0.258561075,-0.964962602,0.0431300029,0.0115562882
+	attRot = 0.258819312,2.19384084E-08,1.06775829E-07,0.965925813
+	attRot0 = -0.139288634,-0.814117551,0.519832015,-0.218142182
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = longAntenna_4293998334
+	srfN = srfAttach,standardNoseCone_4293998454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableAntenna
+		isEnabled = True
+		currentRotation = (-0.707106829, 0, 0, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		deployState = EXTENDED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		xmitIncomplete = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartTransmissionAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 300
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = ra
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = kOSMachineRad_4293998198
+	partName = Part
+	pos = 0.457755089,14.7837887,-0.710797966
+	attPos = 0,0,0
+	attPos0 = 0,-0.830130994,0.118757457
+	rot = -0.5,0.500000179,0.5,-0.500000179
+	attRot = -0.999999881,0,0,0
+	attRot0 = 0.707106829,-2.08616257E-07,-0.707106829,2.08616257E-07
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,IR.Segment.TubeLarge.2m50_4293999386
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = kOSProcessor
+		isEnabled = True
+		bootFile = None
+		diskSpace = 60000
+		baseDiskSpace = 60000
+		baseModuleMass = 0
+		additionalCost = 0
+		MaxPartId = 100
+		RequiredPower = 0.0399999991
+		stagingEnabled = True
+		activated = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+			TogglePower
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		deployState = EXTENDED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				active = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				active = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				active = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = stackPoint1_4293998156
+	partName = Part
+	pos = 0.457755089,14.8650322,-1.74093294
+	attPos = 0,0.0657681227,0.00109958649
+	attPos0 = 0,0.134231925,0.198900282
+	rot = -2.08616257E-07,1.27054934E-20,-2.51214827E-14,1.00000012
+	attRot = 0,0,0,1
+	attRot0 = -0.70710665,-1.77635701E-14,1.77635599E-14,-0.707106888
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = probeStackSmall_4293998116
+	srfN = srfAttach,IR.Segment.TubeLarge.2m50_4293999386
+	attN = top,probeStackSmall_4293998116
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConnectedLivingSpace
+		isEnabled = True
+		passable = True
+		passableWhenSurfaceAttached = True
+		surfaceAttachmentsPassable = False
+		passablenodes = 
+		impassablenodes = 
+		spaceName = BZ-52 Radial Attachment Point
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 1.25
+		defaultScale = 1.25
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 250
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = probeStackSmall_4293998116
+	partName = Part
+	pos = 0.457755089,14.6650324,-1.74093223
+	attPos = 1.7428472E-14,-0.346883774,-4.47034658E-08
+	attPos0 = -7.37986434E-15,0.146883503,4.47034658E-08
+	rot = -3.44383111E-41,-6.77626519E-21,-5.08220051E-21,1.00000012
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = 1.49011612E-07,-6.77626358E-21,2.51214743E-14,1
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = batteryBank_4293998064
+	attN = bottom,stackPoint1_4293998156
+	attN = top,batteryBank_4293998064
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleProbeControlPoint
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		hibernation = False
+		hibernateOnWarp = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			HibernateToggle
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		actuatorModeCycle = 0
+		authorityLimiter = 100
+		stateString = Active
+		stagingEnabled = True
+		WheelState = Active
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			CycleAction
+			{
+				actionGroup = None
+			}
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSAS
+		isEnabled = True
+		standaloneToggle = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleKerbNetAccess
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			OpenKerbNetAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		xmitIncomplete = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartTransmissionAction
+			{
+				actionGroup = None
+				active = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleScienceContainer
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			CollectAllAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleLogisticsConsumer
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 1.25
+		defaultScale = 1.25
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 2249.99976
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = control
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TrajectoriesVesselSettings
+		isEnabled = True
+		EntryAngle = 0
+		EntryHorizon = False
+		HighAngle = 0
+		HighHorizon = False
+		LowAngle = 0
+		LowHorizon = False
+		GroundAngle = 0
+		GroundHorizon = False
+		ProgradeEntry = False
+		RetrogradeEntry = False
+		hasTarget = False
+		targetLocation = (0, 0, 0)
+		targetReferenceBody = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Log
+		{
+			flight = 0
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 15
+		maxAmount = 15
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBank_4293998064
+	partName = Part
+	pos = 0.457755089,14.8758879,-1.74093294
+	attPos = 0,0.109881401,0
+	attPos0 = -4.23516474E-21,0.210854873,-1.81361806E-08
+	rot = -3.44383111E-41,-6.77626519E-21,-5.08220051E-21,1.00000012
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = 0,0,1.00974196E-27,1
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = adapterSmallMiniShort_4293998034
+	attN = top,adapterSmallMiniShort_4293998034
+	attN = bottom,probeStackSmall_4293998116
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 1.25
+		defaultScale = 1.25
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 879.97998
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 1000
+		maxAmount = 1000
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = adapterSmallMiniShort_4293998034
+	partName = Part
+	pos = 0.457755089,14.986743,-1.74093306
+	attPos = 0,0,0
+	attPos0 = 0.0106765199,5.98771715,-0.399179399
+	rot = -3.44383111E-41,-6.77626519E-21,-5.08220051E-21,1.00000012
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = 0.707106769,0,0,0.707106769
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = seatExternalCmd_4293998002
+	attN = bottom,batteryBank_4293998064
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 1.25
+		defaultScale = 1.25
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 100
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = seatExternalCmd_4293998002
+	partName = Part
+	pos = 0.457755089,15.3867455,-1.74093533
+	attPos = -0.0123245241,0.0250000954,-0.0213465579
+	attPos0 = 0.0123245241,0.375,0.0213465579
+	rot = -0.707106709,7.86203668E-21,7.29007522E-21,-0.707107067
+	attRot = 0,0,-0.999999881,0
+	attRot0 = -0.70710659,0,0,-0.707106948
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,adapterSmallMiniShort_4293998034
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KerbalSeat
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleLogisticsConsumer
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TakeCommand
+		isEnabled = True
+		hibernation = False
+		hibernateOnWarp = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			HibernateToggle
+			{
+				actionGroup = None
+				active = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Log
+		{
+			flight = 0
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = distometer500x_4293997906
+	partName = Part
+	pos = 0.457755089,14.065033,-2.70052528
+	attPos = -1.05566741E-07,-0.129468918,0.0675426722
+	attPos0 = 1.05566741E-07,-0.270530701,-1.26754272
+	rot = 1,1.21168997E-27,8.07794048E-28,4.17232286E-07
+	attRot = 0,0,0.99999994,0
+	attRot0 = 1,2.82727556E-27,-6.77626277E-21,4.17232286E-07
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,asasmodule1-2_4293999490
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = LaserDistModule
+		isEnabled = True
+		Distance = -1
+		HitName = <none>
+		MaxDistance = 50000000
+		MaxBendX = 15
+		MaxBendY = 15
+		DrawLaser = False
+		Activated = False
+		ElectricPerSecond = 0.300000012
+		BendX = 0
+		BendY = 0
+		CPUGreedyPercent = 5
+		UpdateAge = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionToggleVisibility
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = rearlaser
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = LgRadialSolarPanel_4293337942
+	partName = Part
+	pos = -0.324720144,14.6636391,-1.50052524
+	attPos = 0,0,0
+	attPos0 = -0.782475233,0.198606491,5.96046448E-08
+	rot = -0.707106888,1.57054447E-09,4.90006652E-29,0.70710665
+	attRot = 0,0,0,0.99999994
+	attRot0 = -0.707106888,1.57054447E-09,4.79154185E-21,0.70710665
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = LgRadialSolarPanel_4293337564
+	srfN = srfAttach,asasmodule1-2_4293999522
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		deployState = EXTENDED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				active = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				active = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				active = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 600
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = LgRadialSolarPanel_4293337564
+	partName = Part
+	pos = 1.24023032,14.6636391,-1.50052536
+	attPos = 0,0,0
+	attPos0 = 0.782475233,0.198606491,-1.1920929E-07
+	rot = 3.09086232E-08,0.70710665,0.707106888,-3.24791571E-08
+	attRot = 0,0,0,0.99999994
+	attRot0 = 3.09086232E-08,0.70710665,0.707106888,-3.24791571E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = LgRadialSolarPanel_4293337942
+	srfN = srfAttach,asasmodule1-2_4293999522
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		deployState = EXTENDED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				active = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				active = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				active = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 600
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = distometer500x_4293997950
+	partName = Part
+	pos = 0.457755089,14.065033,-0.30052495
+	attPos = 1.54498791E-20,-0.127558708,-0.0679347515
+	attPos0 = 8.13152469E-22,-0.27244091,1.2679348
+	rot = -8.07793567E-28,4.17232286E-07,1,-1.21168997E-27
+	attRot = 0,0,0.99999994,0
+	attRot0 = 6.77626277E-21,4.17232286E-07,1,-2.82727556E-27
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,asasmodule1-2_4294460440
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = LaserDistModule
+		isEnabled = True
+		Distance = -1
+		HitName = <none>
+		MaxDistance = 50000000
+		MaxBendX = 15
+		MaxBendY = 15
+		DrawLaser = False
+		Activated = False
+		ElectricPerSecond = 0.300000012
+		BendX = 0
+		BendY = 0
+		CPUGreedyPercent = 5
+		UpdateAge = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionToggleVisibility
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = frontlaser
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
