@@ -1,5 +1,7 @@
 # KSP Robotic Horse
 
+[![Watch on YouTube](https://img.youtube.com/vi/MXVKTGmOl8o/0.jpg)](https://youtu.be/MXVKTGmOl8o)
+
 ## horse.ks:
 
 Put this file in your \Ships\Script directory within the KSP install folder in order to access it in-game.
